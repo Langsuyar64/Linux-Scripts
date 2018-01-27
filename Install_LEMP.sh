@@ -45,3 +45,6 @@ sudo bash -c 'cat >> /var/www/html/info.php << EOF
 <?php
 phpinfo();
 EOF'
+
+#Install PHPMYADMIN
+echo installing PHPMYADMIN 
