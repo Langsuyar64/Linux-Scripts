@@ -13,9 +13,10 @@ echo Setup MySQL installation...
 mysql_secure_installation
 
 # Install PHP 7.x
-Installing PHP 7.x...
-#sudo apt-get install php-fpm php-mysql -y
-sudo apt-get install -y php7.0-common php7.0-fpm php7.0-cli php7.0-json php7.0-mysql php7.0-curl php7.0-intl php7.0-mcrypt php-pear php7.0-gd php7.0-zip php7.0-xml php7.0-mbstring
+echo Installing PHP 7.x...
+sudo apt-get install -y php7.0 php7.0-fpm php7.0-mysql php7.0-cgi
+echo Installing additional PHP 7.x Libraries...
+sudo apt-get install -y php7.0-common php7.0-cli php7.0-json php7.0-mysql php7.0-curl php7.0-intl php7.0-mcrypt php-pear php7.0-gd php7.0-zip php7.0-xml php7.0-mbstring
 
 # Open main php-fpm config file
 Editing main PHP-FPM config file
