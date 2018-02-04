@@ -14,7 +14,7 @@ mysql_secure_installation
 
 # Install PHP 7.x
 echo Installing PHP 7.x...
-sudo apt-get install -y php7.0 php7.0-fpm php7.0-mysql php7.0-cgi
+sudo apt-get install -y php7.0 php7.0-fpm php7.0-mysql php7.0-cgi php7.0-pdo
 echo Installing additional PHP 7.x Libraries...
 sudo apt-get install -y php7.0-common php7.0-cli php7.0-json php7.0-mysql php7.0-curl php7.0-intl php7.0-mcrypt php-pear php7.0-gd php7.0-zip php7.0-xml php7.0-mbstring
 
